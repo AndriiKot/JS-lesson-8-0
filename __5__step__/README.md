@@ -1,5 +1,10 @@
 <a id=top></a>
 
+<details>
+  <summary># Step test</summary>
+  TEST 
+</details>
+
 # Random Background Color changer
 
 Debugging is the process of going through your code, finding any issues, and fixing them.
