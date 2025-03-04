@@ -27,9 +27,7 @@ In this project, you will help CamperBot build a random background color changer
         <summary>
           <h5>Example Code</h5>
         </summary>
-        <code>
-            SyntaxError: unknown: Unexpected token, expected "," (5:2)
-        </code>
+        <code>SyntaxError: unknown: Unexpected token, expected "," (5:2)</code>
       </details>
       <p>
         Syntax errors are thrown when the JavaScript engine encounters something it can't interpret. In this case, it looks like CamperBot has syntax errors in the <code>darkColorsArr</code> array.
