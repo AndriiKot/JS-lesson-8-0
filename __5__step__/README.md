@@ -12,8 +12,8 @@
 
   In this case, CamperBot is not passing in the correct selector to the <code>document.querySelector</code> method.
 
-  Fix the <code>document.querySelector("bg-hex-code")</code> line so that it correctly selects the element with the <code>id</code> of <span style="white-space: nowrap;"><code>bg-hex-code</code></span>.
-
+  Fix the <code>document.querySelector("bg-hex-code")</code> line so that it correctly selects the element with the <code>id</code> of <code>bg-&nbsphex-&nbspcode&nbsp</code>.
+3
   </p>
 </details>
 
