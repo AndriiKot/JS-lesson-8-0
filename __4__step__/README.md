@@ -6,17 +6,20 @@
   </summary>
   <h3>Step 4</h3>
   <p>
-      CamperBot is finished with building out the getRandomIndex function and it is working as expected.
-
-      But now they are running into this issue
-      when trying to create a reference to the
-      body element in the DOM:
-
-      Example Code
-      Uncaught TypeError: document.queryselector is not a function
-      A TypeError means that the code is trying to perform an operation on a value that is not of the expected type.
-
-      Fix the TypeError by updating the document.queryselector method to the correct method name that selects an element from the DOM.
+      CamperBot is finished with building out the
+      getRandomIndex function and it is working as expected. But now they are running into this issue
+      when trying to create a reference to the <code>body</code> element in the DOM:
+  </p>
+  <p>
+      <code>Uncaught TypeError: document.queryselector is not a function</code>
+  </p>
+  <p>
+      A TypeError means that the code is trying to perform
+      an operation on a value that is not of the expected type.
+  </p>
+  <p>
+      Fix the TypeError by updating the document.queryselector
+      method to the correct method name that selects an element from the DOM.
   </p>
 </details>
 
