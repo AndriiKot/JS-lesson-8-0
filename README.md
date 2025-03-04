@@ -10,6 +10,30 @@ In this project, you will help CamperBot build a random background color changer
   <summary>
     <h4>Description of the Tasks</h4>
   </summary>
+  <details>
+  <summary>
+    <h5>Step 3</h5>
+  </summary>
+        <p>
+          Now that the <code>ReferenceError</code> is resolved, the console is displaying the correct results for a random number between <code>0</code> and <code>9</code>. But CamperBot was not expecting to see decimal numbers like these:
+        </p>
+        <p>
+            <details>
+                <summary>
+                    <h5>Example Code</h5>
+                </summary>
+                <code>0.015882899879771095</code><br>
+                <code>2.114596286197641</code><br>
+                <code>6.040964780197666</code><br>
+            </details>
+        </p>
+        <p>
+            Update the <code>console</code> statement to print a whole number between <code>0</code> and <code>9</code>.
+        </p>
+        <p>
+            Remember that you worked with a method in the Role Playing Game that rounds a number down to the nearest whole number.
+        </p>
+    </details>
     <details>
     <summary>
       <h5>Step 4</h5>
