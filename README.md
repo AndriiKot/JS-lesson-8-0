@@ -36,9 +36,13 @@ In this project, you will help CamperBot build a random background color changer
       <h5>Step 5</h5>
     </summary>
       <p>
-        CamperBot has created a new variable called <code>bgHexCodeSpanElement</code> to store the reference to the <code>span</code> element with the <code>id</code> of <code>bg-hex-code</code>. However, when they try to log that variable to the console, they get <code>null</code>
+        CamperBot has created a new variable called <code>bgHexCodeSpanElement</code> to store the reference to the <code>span</code> element with the <code>id</code> of <code>bg-hex-code</code>. However, when they try to log that variable to the console, they get <code>null</code>.
+      </p>
+      <p>
         <code>null</code> is a special value in JavaScript that represents the absence of a value. This can happen when you try to access a property of an object that doesn't exist
         In this case, CamperBot is not passing in the correct selector to the <code>document.querySelector</code> method
+      </p>
+      <p>
         Fix the <code>document.querySelector("bg-hex-code")</code> line so that it correctly selects the element with the <code>id</code> of <code>bg-hex-code</code>.
       </p>
   </details>
