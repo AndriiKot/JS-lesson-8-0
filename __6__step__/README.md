@@ -33,7 +33,7 @@ In this project, you will help CamperBot build a random background color changer
 
 #### preview
 
-![preview 'Random Background Color Changer step 5'](https://github.com/AndriiKot/JS__Random_Background_Color_Changer__freeCodeCamp/blob/main/preview/step1.png)
+![preview 'Random Background Color Changer step 6'](https://github.com/AndriiKot/JS__Random_Background_Color_Changer__freeCodeCamp/blob/main/preview/step1.png)
 
 | [index.html](#indexhtml) | [styles.css](#stylescss) | [script.js](#scriptjs) |
 | ------------------------ | ------------------------ | ---------------------- |
@@ -163,15 +163,21 @@ const darkColorsArr = [
 ];
 
 function getRandomIndex() {
-  console.log(Math.floor(darkColorsArr.length * Math.random()));
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
 }
-
-getRandomIndex();
 
 const body = document.querySelector("body");
 const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
 
-console.log(bgHexCodeSpanElement);
+function changeBackgroundColor() {
+  const color = darkColorsArr[getRandomIndex()];
+
+  bgHexCodeSpanElement.innerText = color;
+  body.style.backgroundColor = color;
+}
+
+changeBackgroundColor();
 ```
 
 [back to top](#top)
