@@ -8,7 +8,6 @@
   <p>
     Now that the <code>ReferenceError</code> is resolved, the console is displaying the correct results for a random number between <code>0</code> and <code>9</code>. But CamperBot was not expecting to see decimal numbers like these:
   </p>
-  <p>
       <details>
           <summary>
               <h5>Example Code</h5>
@@ -17,7 +16,6 @@
           <code>2.114596286197641</code><br>
           <code>6.040964780197666</code><br>
       </details>
-  </p>
   <p>
       Update the <code>console</code> statement to print a whole number between <code>0</code> and <code>9</code>.
   </p>

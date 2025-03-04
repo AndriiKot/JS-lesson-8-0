@@ -11,6 +11,34 @@ In this project, you will help CamperBot build a random background color changer
     <h4>Description of the Tasks</h4>
   </summary>
   <details>
+      <summary>
+        <h5>Step 1</h5>
+      </summary>
+      <p>
+        CamperBot is trying to build out a random background color changer. But they keep running into issues and need your help to debug the code
+      </p>
+      <p>
+        CamperBot has already added the HTML and CSS for the project. But they are confused as to why none of the styles and content is showing up on the page.
+      </p>
+      <p>
+        When they open up the console they see this message:
+      </p>
+      <details>
+        <summary>
+          <h5>Example Code</h5>
+        </summary>
+        <code>
+            SyntaxError: unknown: Unexpected token, expected "," (5:2)
+        </code>
+      </details>
+      <p>
+        Syntax errors are thrown when the JavaScript engine encounters something it can't interpret. In this case, it looks like CamperBot has syntax errors in the <code>darkColorsArr</code> array.
+      </p>
+      <p>
+        Fix the syntax errors in the <code>darkColorsArr</code> array and you should see the content and styles show up on the page.
+      </p>
+  </details>
+  <details>
     <summary>
       <h5>Step 2</h5>
     </summary>
@@ -39,7 +67,6 @@ In this project, you will help CamperBot build a random background color changer
         <p>
           Now that the <code>ReferenceError</code> is resolved, the console is displaying the correct results for a random number between <code>0</code> and <code>9</code>. But CamperBot was not expecting to see decimal numbers like these:
         </p>
-        <p>
             <details>
                 <summary>
                     <h5>Example Code</h5>
@@ -48,7 +75,6 @@ In this project, you will help CamperBot build a random background color changer
                 <code>2.114596286197641</code><br>
                 <code>6.040964780197666</code><br>
             </details>
-        </p>
         <p>
             Update the <code>console</code> statement to print a whole number between <code>0</code> and <code>9</code>.
         </p>
