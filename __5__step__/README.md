@@ -12,7 +12,7 @@
 
   In this case, CamperBot is not passing in the correct selector to the <code>document.querySelector</code> method.
 
-  Fix the <code>document.querySelector("bg-hex-code")</code> line so that it correctly selects the element with the <code>id</code> of <code><pre></pre>`bg-hex-code`</pre></code>.
+  Fix the <code>document.querySelector("bg-hex-code")</code> line so that it correctly selects the element with the <code>id</code> of <code><pre></pre>bg-hex-code</pre></code>.
   </p>
 </details>
 
