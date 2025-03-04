@@ -47,9 +47,7 @@ In this project, you will help CamperBot build a random background color changer
       <summary>
         <h5>Example Code</h5>
       </summary>
-      <code>
-            Uncaught ReferenceError: math is not defined
-      </code>
+      <code>Uncaught ReferenceError: math is not defined</code>
     </details>
     <p>
       A <code>ReferenceError</code> is thrown when a non-existent variable is referenced. In this case, it looks like CamperBot is trying to use <code>math</code> but JavaScript doesn't have a <code>math</code> object.
